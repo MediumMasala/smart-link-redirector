@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "framework": null,
+  "rewrites": [
+    { "source": "/tal", "destination": "/api/redirect" },
+    { "source": "/go", "destination": "/api/redirect" },
+    { "source": "/health", "destination": "/api/health" },
+    { "source": "/debug", "destination": "/api/debug" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store, no-cache, must-revalidate" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}

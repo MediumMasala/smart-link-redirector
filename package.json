@@ -1,0 +1,25 @@
+{
+  "name": "smart-link-redirector",
+  "version": "1.0.0",
+  "description": "Smart Link Redirector - Device-aware app store redirection service",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "vercel",
+    "edge-functions",
+    "redirect",
+    "deep-link",
+    "app-store"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/node": "^3.0.0",
+    "typescript": "^5.7.2",
+    "vercel": "^39.0.0"
+  }
+}
