@@ -2,6 +2,7 @@
   "version": 2,
   "framework": null,
   "rewrites": [
+    { "source": "/", "destination": "/api/redirect" },
     { "source": "/tal", "destination": "/api/redirect" },
     { "source": "/go", "destination": "/api/redirect" },
     { "source": "/health", "destination": "/api/health" },
