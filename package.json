@@ -4,7 +4,6 @@
   "description": "Smart Link Redirector - Device-aware app store redirection service",
   "scripts": {
     "dev": "vercel dev",
-    "build": "vercel build",
     "deploy": "vercel --prod",
     "typecheck": "tsc --noEmit"
   },
